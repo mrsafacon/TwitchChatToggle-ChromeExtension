@@ -2,7 +2,7 @@
   "manifest_version": 2,
 
   "name": "Twitch Chat Toggle",
-  "description": "Hide Twitch chat until you explicitly allow showing it.",
+  "description": "Hide Twitch chat until you explicitly allow showing it. ",
   "version": "1.0",
 
   "browser_action": {
