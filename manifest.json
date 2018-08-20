@@ -3,7 +3,7 @@
 
   "name": "Twitch Chat Toggle",
   "description": "Hide Twitch chat until you explicitly allow showing it. ",
-  "version": "1.0",
+  "version": "1.0.1",
 
   "browser_action": {
    "default_icon": "icon.png"
@@ -19,5 +19,9 @@
   }],
   "background":{
     "scripts": ["background.js"]
-  }
+  },
+  "icons": {
+          "128": "webstore-icon.png"
+        }
+
 }
