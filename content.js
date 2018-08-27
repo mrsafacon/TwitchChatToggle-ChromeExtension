@@ -34,10 +34,12 @@ function createButton(){
   button.appendChild(t);
   button.id  = 'twitch-chat-toggle';
   button.onclick = toggle;
+  if(chats !== null){
+    chats.forEach(function (el){
+      el.parentNode.insertBefore(button, el.nextSibling);
+    });
+  }
 
-  chats.forEach(function (el){
-    el.parentNode.insertBefore(button, el.nextSibling);
-  });
 }
 
 init();
