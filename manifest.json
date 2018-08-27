@@ -14,7 +14,7 @@
    "content_scripts": [{
     "css": ["content.css"],
     "js": ["content.js"],
-    "matches": ["<all_urls>"],
+    "matches": ["*://*.twitch.tv/*"],
     "all_frames": true
   }],
   "background":{
